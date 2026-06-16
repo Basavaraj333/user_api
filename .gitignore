@@ -1,0 +1,14 @@
+# Environment variables — never push secrets to GitHub
+.env
+
+# Go build output
+*.exe
+*.out
+/server
+
+# Go test cache
+*.test
+
+# OS files
+.DS_Store
+Thumbs.db
