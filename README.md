@@ -1,4 +1,4 @@
----
+
 
 ## Run with Docker (Recommended)
 
@@ -13,7 +13,7 @@ docker compose up --build
 
 API is live at `http://localhost:8080`
 
----
+
 
 ## Run Locally (without Docker)
 
@@ -40,7 +40,7 @@ export APP_ENV=development
 go run ./cmd/server/main.go
 ```
 
----
+
 
 ## Run Tests
 
@@ -48,7 +48,6 @@ go run ./cmd/server/main.go
 go test ./internal/service/... -v
 ```
 
----
 
 ## API Endpoints
 
@@ -60,7 +59,7 @@ go test ./internal/service/... -v
 | DELETE | /users/:id | Delete user (204 No Content) |
 | GET | /users?page=1&limit=10 | List all users with pagination |
 
----
+
 
 ## API Examples
 
@@ -116,7 +115,7 @@ Response `200`:
 }
 ```
 
----
+
 
 ## Design Decisions
 
